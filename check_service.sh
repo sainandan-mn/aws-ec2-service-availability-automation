@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 SERVICE_NAME="apache2"
