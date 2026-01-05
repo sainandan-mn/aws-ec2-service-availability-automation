@@ -1,4 +1,4 @@
-# AWS EC2 Apache Auto-Healing Automation
+# AWS ec2 service availability automation
 
 ## Overview
 
