@@ -157,6 +157,6 @@ aws-ec2-apache-auto-healing/
 ## Author
 
 **Sai Nandan**
-Aspiring Cloud / DevOps Engineer
+Aspiring Cloud  Engineer
 
 ---
