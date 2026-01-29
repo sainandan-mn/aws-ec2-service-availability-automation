@@ -153,15 +153,24 @@ aws-ec2-apache-auto-healing/
 * Failure detection and recovery workflows
 
 ---
+### Roadmap & Future Enhancements
+
+This project is designed to evolve in layers, moving from local service automation to cloud-native, event-driven reliability engineering.
+
+
 ## Phase 1 — Cloud Visibility
-## Goal: Observe system health and recovery behavior from the AWS control plane.
+
+# Goal: Observe system health and recovery behavior from the AWS control plane.
+
 *Integrate CloudWatch Agent: Collect granular CPU, memory, and disk metrics.
 *Centralized Logging: Ship recovery logs to CloudWatch Logs for long-term analysis.
 *CloudWatch Alarms: Create metric-based alarms for high resource usage or frequent service restarts.
 *SNS Notifications: Enable real-time alerts (Email/SMS) for failure and recovery events.
 
 ## Phase 2 — Event-Driven Auto-Remediation
-## Goal: Replace scheduled recovery with real-time cloud automation.
+
+# Goal: Replace scheduled recovery with real-time cloud automation.
+
 *Lambda Functions: Deploy a Python-based AWS Lambda function triggered by CloudWatch alarms.
 *AWS Systems Manager (SSM): Automate EC2 reboots or service restarts via SSM Run Command instead of local cron jobs.
 *Auditability: Log all automated remediation actions back to CloudWatch for a full audit trail.
